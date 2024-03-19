@@ -8,3 +8,15 @@ as         def        from       nonlocal   while
 assert     del        global     not        with
 async      elif       if         or         yield
 ```
+
+## `append()`
+
+```py
+orders = ["daisies", "periwinkle"]
+print(orders)
+# [daises, periwinkle]
+orders.append("tulips")
+orders.append("roses")
+print(orders)
+# [daises, periwinkle, tulips, roses]
+```
