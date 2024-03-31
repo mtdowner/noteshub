@@ -26,6 +26,11 @@ Operator | Purpose
 - `else` statements can be used to execute code when the conditions of an `if` statement are not met
 - `elif` statements can be used to build additional checks into your `if` statements
 
+### Boolean operators
+- `and`: checks if two expressions are **both** true
+- `or`:  if two expressions are **either** or **both** true
+- `not`: checks if a single expression is false
+
 ## Reserved Words in Python
 ```py
 False      await      else       import     pass
