@@ -80,7 +80,13 @@ as         def        from       nonlocal   while
 assert     del        global     not        with
 async      elif       if         or         yield
 ```
-  
+## Nesting operators
+
+```py
+print((5 < 4 and 3 > 7) or (not False and 3 < 2))
+print(not (not (not (not True))))
+```
+
 | Operators | Operators | Priority |
 |-|-|-|
 | Math | Parentheses | Highest |
