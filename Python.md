@@ -69,6 +69,9 @@ print(not False)   # True
 print(not 4 < 5)
 print(not 5 < 4)
 ```
+```py
+print(5 < 1 or < 2)
+```
 
 ## Reserved Words in Python
 ```py
@@ -106,6 +109,7 @@ print(not (not (not (not True))))
 || And ||
 || Or ||
 
+# Functions
 ## `append()`
 
 ```py
@@ -117,3 +121,5 @@ orders.append("roses")
 print(orders)
 # [daises, periwinkle, tulips, roses]
 ```
+## `len()`
+`len()` returns the length of an object
