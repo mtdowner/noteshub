@@ -1,6 +1,12 @@
 ## Variables
+String: character(s) of text
+Boolean: `True` or `False`
 
-Booleans: `True` or `False`
+## String Concatenation
+- joining of strings
+- uses `+` operator to combine
+- parameters must be of the same type (string)
+- different types will result in an error
 
 ## Operators
 ### Math Operators
