@@ -129,4 +129,9 @@ print(orders)
 # [daises, periwinkle, tulips, roses]
 ```
 ## `len()`
-`len()` returns the length of an object
+`len()` returns the number of items found length of an object
+
+```py
+german_shepherds = ["Fats", "Queenie", "Davenport"]
+len(german_shepherds)
+```
