@@ -3,7 +3,7 @@
 Booleans: `True` or `False`
 
 ## Operators
-### Math operators
+### Math Operators
 Operator | Purpose
 -|-
 `+` | addition
@@ -14,7 +14,7 @@ Operator | Purpose
 `//` | integer division
 `%` | modulo
 
-### Rational/Comparison operators
+### Rational/Comparison Operators
 
 `==`: Equals
 `!=`: Not equals
@@ -26,7 +26,7 @@ Operator | Purpose
 - `else` statements can be used to execute code when the conditions of an `if` statement are not met
 - `elif` statements can be used to build additional checks into your `if` statements
 
-### Boolean operators
+### Boolean Operators
 
 - `and`: checks if two expressions are **both** true
 
@@ -83,7 +83,7 @@ as         def        from       nonlocal   while
 assert     del        global     not        with
 async      elif       if         or         yield
 ```
-## Nesting operators
+## Nesting Operators
 
 ```py
 print((5 < 4 and 3 > 7) or (not False and 3 < 2))
