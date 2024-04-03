@@ -7,6 +7,7 @@ Boolean: `True` or `False`
 - uses `+` operator to combine
 - parameters must be of the same type (string)
 - different types will result in an error
+- may combine variables of the same tyoe
 
 ## Operators
 ### Math Operators
