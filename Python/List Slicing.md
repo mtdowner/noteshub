@@ -1,12 +1,24 @@
+[TOC] 
+
 # Negative List Indices
+
 - used to reference elements in relation to the end of a list
 - may access single element or range of elements
 
 Example:
 
-- Selects the last element: `german_shepherd_names[-1]`
-- Select the last three elements: `german_shepherd_names[-3:]`
-- Select everything but the last two elements: `german_shepherd_names[:-2]`
+- Selects the last element:
+```py
+german_shepherd_names[-1]
+```
+- Select the last three elements:
+```py
+german_shepherd_names[-3:]
+```
+- Select everything but the last two elements:
+```py
+german_shepherd_names[:-2]
+```
 
 ```py
 german_shepherd_names = ["Piggy", "Silly Willy", "Sauerkraut", "Pumpernickel"]
