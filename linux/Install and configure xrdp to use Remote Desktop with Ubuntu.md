@@ -56,10 +56,10 @@ sudo service xrdp restart
 
 ## Set a local user account password
 
-If you created a password for your user account when you created your VM, skip this step. If you only use SSH key authentication and don't have a local account password set, specify a password before you use xrdp to log in to your VM. xrdp can't accept SSH keys for authentication. The following example specifies a password for the user account `azureuser`:
+If you created a password for your user account when you created your VM, skip this step. If you only use SSH key authentication and don't have a local account password set, specify a password before you use xrdp to log in to your VM. xrdp can't accept SSH keys for authentication. The following example specifies a password for the user account `missy`:
 
 ```bash
-sudo passwd azureuser
+sudo passwd missy
 ```
 
 > **Note**
@@ -75,7 +75,7 @@ The following example creates a network security group rule with `az vm open-por
 Azure CLI
 
 ```bash
-az vm open-port --resource-group myResourceGroup --name myVM --port 3389
+az vm open-port --resource-group myResourceGroup --name ubuntuVm --port 3389
 ```
 
 ## Connect your Linux VM with a Remote Desktop client
