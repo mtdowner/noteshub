@@ -45,7 +45,7 @@ sudo adduser xrdp ssl-cert
 Tell xrdp what desktop environment to use when you start your session. Configure xrdp to use xfce as your desktop environment as follows:
 
 ```bash
-echo xfce4-session &gt;~/.xsession
+echo xfce4-session >~/.xsession
 ```
 
 Restart the xrdp service for the changes to take effect as follows:
