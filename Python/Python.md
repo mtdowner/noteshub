@@ -117,6 +117,20 @@ print(not (not (not (not True))))
 || Or ||
 
 # Functions
+
+## Function definition
+```
+def function_name()
+  # function tasks here
+```
+
+## Types of arguments:
+- positional: called by their position in function definition
+- keyword: called by their name
+- default: given default values
+
+## Function list
+
 ## `append()`
 
 ```py
