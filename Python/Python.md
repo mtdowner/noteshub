@@ -124,6 +124,13 @@ def function_name()
   # function tasks here
 ```
 
+- function header: `def` keyword indicates start of a function
+- parameter: parenthesis following the function name that holds input values
+- `:` marks the end of function header
+- Python statements make up the function body
+-  code inside function must be indented to indicate they are a part of the function
+
+
 ## Types of arguments:
 - positional: called by their position in function definition
 - keyword: called by their name
