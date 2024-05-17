@@ -132,13 +132,13 @@ def function_name()
 
 
 ## Types of arguments:
-- positional: called by their position in function definition
-- keyword: called by their name
-- default: given default values
+- _positional_: called by their position in function definition
+- **keyword**: called by their name
+- **default**: given default values
 
 ## Function list
 
-## `append()`
+## `.append()`
 
 ```py
 orders = ["daisies", "periwinkle"]
@@ -154,5 +154,7 @@ print(orders)
 
 ```py
 german_shepherds = ["Fats", "Queenie", "Davenport"]
-len(german_shepherds)
+how_many_german_shepherds = len(german_shepherds)
+print(how_many_german_shepherds)
+# 3
 ```
