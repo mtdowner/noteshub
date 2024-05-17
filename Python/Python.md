@@ -141,13 +141,14 @@ def function_name()
 ## `.append()`
 
 ```py
-orders = ["daisies", "periwinkle"]
-print(orders)
-# [daises, periwinkle]
-orders.append("tulips")
-orders.append("roses")
-print(orders)
-# [daises, periwinkle, tulips, roses]
+my_german_shepherds = ["Queenie", "Fats"]
+print(my_german_shepherds)
+# [Queenie, Fats]
+
+my_german_shepherds.append("Davenport")
+my_german_shepherds.append("Port")
+print(my_german_shepherds)
+# [Queenie, Fats, Davenport, Port]
 ```
 ## `len()`
 `len()` returns the number of items found length of an object
