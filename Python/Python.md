@@ -139,7 +139,7 @@ def function_name()
 ## Built-in Functions
 
 ## `.append()`
-`.append()` takes an object as an argument, and adds it to the end of an existing list after the last element
+`.append()` takes  one object as an argument, and adds it to the end of an existing list after the last element
 
 ```py
 my_german_shepherds = ["Queenie", "Fats"]
