@@ -160,3 +160,9 @@ how_many_german_shepherds = len(german_shepherds)
 print(how_many_german_shepherds)
 # 3
 ```
+
+## `.pop()`
+`.pop()` removes and returns item to beginning of list
+
+## `push()`
+`push()`
