@@ -34,7 +34,7 @@ Operator | Purpose
 - `else` statements can be used to execute code when the conditions of an `if` statement are not met
 - `elif` statements can be used to build additional checks into your `if` statements
 
-### Boolean Operators
+### Boolean Values
 
 - `and`: checks if two expressions are **both** true
 
