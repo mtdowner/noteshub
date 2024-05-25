@@ -34,8 +34,7 @@ Operator | Purpose
 - `else` statements can be used to execute code when the conditions of an `if` statement are not met
 - `elif` statements can be used to build additional checks into your `if` statements
 
-### Boolean Values
-
+#### `and` operator
 - `and`: checks if two expressions are **both** true
 
 ```py
@@ -44,26 +43,18 @@ print(True and True)    # True
 print(True and False)   # False
 print(False and True)   # False
 print(False and False)  # False
-
-# Math expressions
-print(4 < 5 and 5 < 6)
-print(5 < 4 and 5 < 6)
-print(5 < 4 and 6 < 5)
 ```
 
-- `or`:  if two expressions are **either** or **both** true
+#### `or` operator
 
+- `or`:  if two expressions are **either** or **both** true
+  
 ```py
 # Literal Boolean values
 print(True or True)    # True
 print(True or False)   # True
 print(False or True)   # True
 print(False or False)  # False
-
-# Math expressions
-print(4 < 5 or 5 < 6)
-print(5 < 4 or 5 < 6)
-print(5 < 4 or 6 < 5)
 ```
 
 - `not`: checks if a single expression is false
@@ -72,6 +63,14 @@ print(5 < 4 or 6 < 5)
 # Literal boolean values
 print(not True)    # False
 print(not False)   # True
+
+# Math expressions
+
+```
+print(4 < 5 and 5 < 6)
+print(5 < 4 and 5 < 6)
+print(5 < 4 and 6 < 5)
+```
 
 # Math expressions: Not with math
 print(not 4 < 5)
