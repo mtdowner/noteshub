@@ -1,8 +1,8 @@
 ## Data Types
 String: character(s) of text
 Boolean: `True` or `False`
-Numbers: 
-
+Integers: whole numbers
+Floats: numbers containing a decimal point
 ## String Concatenation
 - joining of strings
 - uses `+` operator to combine
