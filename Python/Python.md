@@ -1,6 +1,7 @@
-## Variables
+## Data Types
 String: character(s) of text
 Boolean: `True` or `False`
+Numbers: 
 
 ## String Concatenation
 - joining of strings
