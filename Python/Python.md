@@ -1,8 +1,8 @@
 ## Data Types
-String: character(s) of text
-Boolean: `True` or `False`
-Integers: whole numbers
-Floats: numbers containing a decimal point
+**String**: character(s) of text
+**Boolean**: `True` or `False`
+**Integer**: whole number
+**Float**: number containing a decimal point
 ## String Concatenation
 - joining of strings
 - uses `+` operator to combine
@@ -30,6 +30,10 @@ Operator | Purpose
 `>=`: Greater than or equal to
 `<`: Less than
 `<=`: Less than or equal to
+
+### `+=` operator
+
+
 - `if` statements can be used to create control flow in your code
 - `else` statements can be used to execute code when the conditions of an `if` statement are not met
 - `elif` statements can be used to build additional checks into your `if` statements
@@ -37,8 +41,9 @@ Operator | Purpose
 #### `and` operator
 - `and`: checks if two expressions are **both** true
 
-```py
 # Literal Boolean values
+
+```py
 print(True and True)    # True
 print(True and False)   # False
 print(False and True)   # False
@@ -59,20 +64,23 @@ print(False or False)  # False
 
 - `not`: checks if a single expression is false
 
-```py
 # Literal boolean values
+```py
 print(not True)    # False
 print(not False)   # True
+```
 
 # Math expressions
 
-```
+```py
 print(4 < 5 and 5 < 6)
 print(5 < 4 and 5 < 6)
 print(5 < 4 and 6 < 5)
 ```
 
 # Math expressions: Not with math
+
+```py
 print(not 4 < 5)
 print(not 5 < 4)
 ```
