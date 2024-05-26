@@ -3,6 +3,7 @@
 **Boolean**: `True` or `False`
 **Integer**: whole number
 **Float**: number containing a decimal point
+
 ## String Concatenation
 - joining of strings
 - uses `+` operator to combine
@@ -11,100 +12,6 @@
 - may combine variables of the same tyoe
 
 ## Operators
-### Math Operators
-Operator | Purpose
--|-
-`+` | addition
-`-` | subtraction
-`*` | multiplication
-`**` | exponents
-`/` | float division
-`//` | integer division
-`%` | modulo
-
-### Rational/Comparison Operators
-
-`==`: Equals
-`!=`: Not equals
-`>`: Greater than 
-`>=`: Greater than or equal to
-`<`: Less than
-`<=`: Less than or equal to
-
-### `+=` operator
-
-
-- `if` statements can be used to create control flow in your code
-- `else` statements can be used to execute code when the conditions of an `if` statement are not met
-- `elif` statements can be used to build additional checks into your `if` statements
-
-#### `and` operator
-- `and`: checks if two expressions are **both** true
-
-# Literal Boolean values
-
-```py
-print(True and True)    # True
-print(True and False)   # False
-print(False and True)   # False
-print(False and False)  # False
-```
-
-#### `or` operator
-
-- `or`:  if two expressions are **either** or **both** true
-  
-```py
-# Literal Boolean values
-print(True or True)    # True
-print(True or False)   # True
-print(False or True)   # True
-print(False or False)  # False
-```
-
-- `not`: checks if a single expression is false
-
-# Literal boolean values
-```py
-print(not True)    # False
-print(not False)   # True
-```
-
-# Math expressions
-
-```py
-print(4 < 5 and 5 < 6)
-print(5 < 4 and 5 < 6)
-print(5 < 4 and 6 < 5)
-```
-
-# Math expressions: Not with math
-
-```py
-print(not 4 < 5)
-print(not 5 < 4)
-```
-```py
-print(5 < 1 or < 2)
-```
-
-## Reserved Words in Python
-```py
-False      await      else       import     pass
-None       break      except     in         raise
-True       class      finally    is         return
-and        continue   for        lambda     try
-as         def        from       nonlocal   while
-assert     del        global     not        with
-async      elif       if         or         yield
-```
-## Nesting Operators
-
-```py
-print((5 < 4 and 3 > 7) or (not False and 3 < 2))
-print(not (not (not (not True))))
-```
-
 | Operators | Operators | Priority |
 |-|-|-|
 | Math | Parentheses | Highest |
@@ -123,6 +30,45 @@ print(not (not (not (not True))))
 | Boolean | Not | Lowest |
 || And ||
 || Or ||
+
+### Math Operators
+Operator | Purpose
+-|-
+`+` | addition
+`-` | subtraction
+`*` | multiplication
+`**` | exponents
+`/` | float division
+`//` | integer division
+`%` | modulo
+
+### Rational/Comparison Operators
+`==`: Equals
+`!=`: Not equals
+`>`: Greater than 
+`>=`: Greater than or equal to
+`<`: Less than
+`<=`: Less than or equal to
+
+### `not` operator
+- `not`: checks if a single expression is false
+
+### `and` operator
+- `and`: checks if two expressions are **both** true
+
+### `or` operator
+- `or`:  if two expressions are **either** or **both** true
+
+### `+=` operator
+- `+=` adds a value to an existing variable and assign the new value back to same variable
+- where the variable and the value are strings, this operator performs string concatenation instead of addition
+
+### Nesting Operators
+```py
+print((5 < 4 and 3 > 7) or (not False and 3 < 2))
+print(not (not (not (not True))))
+```
+***
 
 # Functions
 
@@ -144,33 +90,38 @@ def function_name()
 - **keyword**: called by their name
 - **default**: given default values
 
-## Built-in Functions
 
-## `.append()`
-`.append()` takes  one object as an argument, and adds it to the end of an existing list after the last element
+- `if` statements can be used to create control flow in your code
+- `else` statements can be used to execute code when the conditions of an `if` statement are not met
+- `elif` statements can be used to build additional checks into your `if` statements
 
+# Literal Boolean values
 ```py
-my_german_shepherds = ["Queenie", "Fats"]
-print(my_german_shepherds)
-# [Queenie, Fats]
-
-my_german_shepherds.append("Davenport")
-my_german_shepherds.append("Port")
-print(my_german_shepherds)
-# [Queenie, Fats, Davenport, Port]
-```
-## `len()`
-`len()` returns the number of items found length of an object
-
-```py
-german_shepherds = ["Fats", "Queenie", "Davenport"]
-how_many_german_shepherds = len(german_shepherds)
-print(how_many_german_shepherds)
-# 3
+print(True and True)    # True
+print(True and False)   # False
+print(False and True)   # False
+print(False and False)  # False
+print(not True)    # False
+print(not False)   # True
 ```
 
-## `.pop()`
-`.pop()` removes and returns item to beginning of list
+# Math expressions
+```py
+print(4 < 5 and 5 < 6)
+print(5 < 4 and 5 < 6)
+print(5 < 4 and 6 < 5)
+print(not 4 < 5)
+print(not 5 < 4)
+print(5 < 1 or < 2)
+```
 
-## `push()`
-`push()`
+## Reserved Words in Python
+```py
+False      await      else       import     pass
+None       break      except     in         raise
+True       class      finally    is         return
+and        continue   for        lambda     try
+as         def        from       nonlocal   while
+assert     del        global     not        with
+async      elif       if         or         yield
+```
