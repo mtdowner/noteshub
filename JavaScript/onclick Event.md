@@ -1,4 +1,4 @@
-| Event | Occurs When |
+| Event | Description |
 | :--- | :--- |
 | [onclick](https://www.w3schools.com/jsref/event_onclick.asp) |   clicks on an element |
 | [oncontextmenu](https://www.w3schools.com/jsref/event_oncontextmenu.asp) |  right-clicks on an element |
