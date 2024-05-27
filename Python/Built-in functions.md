@@ -28,3 +28,12 @@ print(how_many_german_shepherds)
 
 ## `push()`
 `push()`
+
+## `lstrip()`
+removes leading space
+
+## `rstrip()`
+removes trailing space
+
+## `strip()`
+removes leading and trailing space
