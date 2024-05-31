@@ -13,7 +13,7 @@ my_german_shepherds.append("Port")
 print(my_german_shepherds)
 # [Queenie, Fats, Davenport, Port]
 ```
-## `len()`
+## `.len()`
 `len()` returns the number of items found length of an object
 
 ```py
@@ -23,17 +23,22 @@ print(how_many_german_shepherds)
 # 3
 ```
 
+## `.join()`
+
+joins a list of strings together with a given delimiter
+
+
 ## `.pop()`
 `.pop()` removes and returns item to beginning of list
 
-## `push()`
+## `.push()`
 `push()`
 
-## `lstrip()`
+## `.lstrip()`
 removes leading space
 
-## `rstrip()`
+## `.rstrip()`
 removes trailing space
 
-## `strip()`
+## `.strip()`
 removes leading and trailing space
