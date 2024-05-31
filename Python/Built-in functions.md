@@ -28,7 +28,7 @@ joins a list of strings together with a given delimiter
 
 ```py
 german_shepherds = ["German Shepherds",  "are", "the", "best", "breed!"]
-german_shepherd_fact = '  ''.join(german_shepherds)
+german_shepherd_fact = '  '.join(german_shepherds)
 print(german_shepherd_traits) # German Shepherds are the best breed!
 ```
 
