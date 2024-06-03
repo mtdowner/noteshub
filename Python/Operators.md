@@ -1,17 +1,10 @@
-## Data Types
-**String**: character(s) of text
-**Boolean**: `True` or `False`
-**Integer**: whole number
-**Float**: number containing a decimal point
+# Operators
+- Arithmetic
+- Assignment
+- Comparison
+- 
 
-## String Concatenation
-- joining of strings
-- uses `+` operator to combine
-- parameters must be of the same type (string)
-- different types will result in an error
-- may combine variables of the same tyoe
 
-## Operators
 | Operators | Operators | Priority |
 |-|-|-|
 | Math | Parentheses | Highest |
@@ -31,7 +24,7 @@
 || And ||
 || Or ||
 
-### Math Operators
+### Arithmetic Operators
 Operator | Purpose
 -|-
 `+` | addition
@@ -69,6 +62,18 @@ print((5 < 4 and 3 > 7) or (not False and 3 < 2))
 print(not (not (not (not True))))
 ```
 ***
+## Data Types
+**String**: character(s) of text
+**Boolean**: `True` or `False`
+**Integer**: whole number
+**Float**: number containing a decimal point
+
+## String Concatenation
+- joining of strings
+- uses `+` operator to combine
+- parameters must be of the same type (string)
+- different types will result in an error
+- may combine variables of the same tyoe
 
 # Functions
 
