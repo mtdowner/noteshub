@@ -2,8 +2,10 @@
 - Arithmetic
 - Assignment
 - Comparison
-- 
-
+- Logical
+- Identity
+- Membership
+- Bitwise
 
 | Operators | Operators | Priority |
 |-|-|-|
