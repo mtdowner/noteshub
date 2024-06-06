@@ -16,7 +16,7 @@
 `delattr()` | Deletes the specified attribute (property or method) from the specified object
 `dict()` | Returns a dictionary (Array)
 `dir()` | Returns a list of the specified object's properties and methods
-`divmod()` | Returns the quotient and the remainder when argument1 is divided by argument2
+`divmod()` | Returns the quotient and the remainder when `argument1` is divided by `argument2`
 `enumerate()` | Takes a collection (e.g. a tuple) and returns it as an enumerate object
 `eval()` | Evaluates and executes an expression
 `exec()` | Executes the specified code (or object)
@@ -48,10 +48,10 @@
 `oct()` |	Converts a number into an octal
 `open()` | Opens a file and returns a file object
 `ord()` | Convert an integer representing the Unicode of the specified character
-`pow()` | Returns the value of x to the power of y
+`pow()` | Returns the value of `x` to the power of `y`
 `print()` | Prints to the standard output device
 `property()` | Gets, sets, deletes a property
-`range()` | Returns a sequence of numbers, starting from 0 and increments by 1 (by default)
+`range()` | Returns a sequence of numbers, starting from `0` and increments by `1` (by default)
 `repr()` | Returns a readable version of an object
 `reversed()` | Returns a reversed iterator
 `round()` | Rounds a numbers
