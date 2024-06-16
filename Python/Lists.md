@@ -1,7 +1,7 @@
 # Lists
 ## List Slicing
 
-`list[start:stop]`
+
 
 ```py
 
@@ -9,10 +9,11 @@ german_shepherd_names  = ["Piggy", "Silly Willy", "Sauerkraut", "Pumpernickel"]
 
 print(german_shepherds_names[0:3])
 #  ["Piggy", "Silly Willy", "Sauerkraut"]
-
 ```
 
- - start at index `0` and retrieve elements up until, but not including, index `3`.
+ -  use  `list[start:stop]` to start at index `0` and retrieve elements up until, but not including, index `3`
+ - use `list_name[:x]` to select the **first** `x` elements
+- use `list_name[-x:]` to select the **last** `x` elements
 
 ## Negative List Indices
 
@@ -37,7 +38,10 @@ german_shepherd_names[:-2]
 ```py
 german_shepherd_names = ["Piggy", "Silly Willy", "Sauerkraut", "Pumpernickel"]
 
-german_shepherd_names[-1] # "Pumpernickel"
-german_shepherd_names[-3:] # "Silly Willy", "Sauerkraut", "Pumpernickel"
-german_shepherd_names[:-2] # "Piggy", "Silly Willy"
+german_shepherd_names[-1]
+#  "Pumpernickel"
+german_shepherd_names[-3:]
+# "Silly Willy", "Sauerkraut", "Pumpernickel"
+german_shepherd_names[:-2]
+#  "Piggy", "Silly Willy"
 ```
