@@ -1,5 +1,20 @@
 # Lists
-# Negative List Indices
+## List Slicing
+
+`list[start:stop]`
+
+```py
+
+german_shepherd_names  = ["Piggy", "Silly Willy", "Sauerkraut", "Pumpernickel"]
+
+print(german_shepherds_names[0:3])
+#  ["Piggy", "Silly Willy", "Sauerkraut"]
+
+```
+
+ - start at index `0` and retrieve elements up until, but not including, index `3`.
+
+## Negative List Indices
 
 - used to reference elements in relation to the end of a list
 - may access single element or range of elements
