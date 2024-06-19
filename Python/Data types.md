@@ -17,6 +17,11 @@
 - **floats**: real number with a decimal point
 - **complex numbers**: represented by a complex class and specified as __(real part) + (imaginary part)j__
 
+### Set
+
+- use the built-in `set()` function with an iterable object or a sequence 
+- place sequence inside curly braces
+-  separate with a comma
 
 ### Sequence Type
 
