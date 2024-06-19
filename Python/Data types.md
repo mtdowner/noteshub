@@ -17,8 +17,20 @@
 - **floats**: real number with a decimal point
 - **complex numbers**: represented by a complex class and specified as __(real part) + (imaginary part)j__
 
+### Boolean
+
+- one of two built-in values
+- True
+- False
+
 ### Set
 
+- an unordered collection of data types
+- iterable
+- mutable
+- has no duplicate elements
+- order of elements in a set is undefined
+- may consist of various elements
 - use the built-in `set()` function with an iterable object or a sequence 
 - place sequence inside curly braces
 -  separate with a comma
