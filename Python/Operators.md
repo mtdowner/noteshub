@@ -37,7 +37,18 @@ Operator | Purpose
 `//` | integer division
 `%` | modulo
 
-### Rational/Comparison Operators
+### Assignment Operators
+
+Operator | Description
+-|-
+`=` | assignment operator
+`+=` | compound addition
+`-=` | compound subtraction
+`*=` | compound multiplication
+`/=` | compound division
+`%=` | compound modulo
+
+### Comparison/Rational Operators
 `==`: Equals
 `!=`: Not equals
 `>`: Greater than 
@@ -45,18 +56,17 @@ Operator | Purpose
 `<`: Less than
 `<=`: Less than or equal to
 
-### `not` operator
+### Logical Operator
+
+#### `not` operator
 - `not`: checks if a single expression is false
 
-### `and` operator
+#### `and` operator
 - `and`: checks if two expressions are **both** true
 
-### `or` operator
+#### `or` operator
 - `or`:  if two expressions are **either** or **both** true
 
-### `+=` operator
-- `+=` adds a value to an existing variable and assign the new value back to same variable
-- where the variable and the value are strings, this operator performs string concatenation instead of addition
 
 ### Nesting Operators
 ```py
