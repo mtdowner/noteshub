@@ -1,5 +1,5 @@
-| Function |	Description |
-| -------- | ------------ |
+| Function |	Description | Example
+| -------- | ------------ | 
 `abs()`|	Returns the absolute value of a number
 `all()`	| Returns True if all items in an iterable object are true
 `any()` | Returns True if any item in an iterable object is true
@@ -68,12 +68,11 @@
 `vars()` | Returns the __dict__ property of an object
 `zip()` | Returns an iterator, from two or more iterators
 
-## `.len()`
+## `len()`
 `len()` returns the number of items found length of an object
 
 ```py
 german_shepherds = ["Fats", "Queenie", "Davenport"]
 how_many_german_shepherds = len(german_shepherds)
-print(how_many_german_shepherds)
-# 3
+print(how_many_german_shepherds) # 3
 ```
