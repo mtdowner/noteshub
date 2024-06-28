@@ -1,4 +1,4 @@
-| Function |	Description | Example
+| Function |	Description |
 | -------- | ------------ | 
 `abs()`|	Returns the absolute value of a number
 `all()`	| Returns True if all items in an iterable object are true
