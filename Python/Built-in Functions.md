@@ -1,9 +1,9 @@
-| Function |	Description |
+| Function | Description |
 | -------- | ------------ | 
 `abs()`|	Returns the absolute value of a number
 `aiter()` | returns an asynchronous iterator for an asynchronous iterable
 `all()`	| Returns True if all items in an iterable object are true
-`anext()` | return the next item from the given asynchronous iterator or default if given iterator is exhausted
+`anext()` |  When awaited, return the next item from the given [asynchronous iterator](https://docs.python.org/3/glossary.html#term-asynchronous-iterator), or _default_ if given and the iterator is exhausted
 `any()` | Returns True if any item in an iterable object is true
 `ascii()`	| Returns a readable version of an object. Replaces none-ascii characters with escape character
 `bin()` | Returns the binary version of a number
